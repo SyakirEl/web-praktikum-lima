@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form Validasi</title>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<script src="JS/validation.js"></script>
+	</head>
+
+	<body>
+		<!-- Kerangka -->
+		<div id="kerangka">
+			<!-- Header Form -->
+			<div id="card-content">
+  				<div id="kerangka-title">
+    				<h2>CUSTOMER</h2>
+    				<div class="underline-title"></div>
+  				</div>
+			</div>
+			<br>
+			<!-- Form Validasi -->
+			<form method="request" name="formku">
+				<input type="text" id="name" name="name" class="form_login" onKeyPress="return maxlength(event)" placeholder="Nama Pelanggan" required />
+				<input type="email" id="email" name="email" class="form_login" placeholder="Email" required />
+ 				<input type="time" id="jam" name="jam" class="form_login" required />
+				<center>
+							<select name="tujuan" id="tujuan" class="dropdown" required>
+								<option value="0">TUJUAN KEBERANGKATAN</option>
+								<option value="AMERIKA"> AMERIKA  </option>
+								<option value="JAPAN"> JAPAN  </option>
+								<option value="KOREA"> KOREA  </option>
+								<option value="SINGAPORE"> SINGAPORE  </option>
+								<option value="TURKEY"> TURKEY  </option>
+								<option value="RUSSIA"> RUSSIA  </option>
+							</select>
+					
+					</center>
+				<br>
+				<input type="text" id="jmltiket" name="jmltiket" class="form_login" placeholder="Jumlah Tiket " onKeyUp="angka(this)" maxlength="2" required />
+ 
+				<input type="submit" class="tombol_login" onClick="return validasi()" value="Kirim">
+			</form>
+			<div id="chatbox"></div>
+		</div>
+	</body>
+</html>

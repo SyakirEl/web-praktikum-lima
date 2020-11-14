@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #d35400;
+}
+
+#kerangka {
+	background: #fbfbfb;
+	border-radius: 8px;
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+	height: 410px;
+	margin: 260px auto auto auto;
+	width: 329px;
+}
+
+#kerangka-home {
+	background: #fbfbfb;
+	border-radius: 8px;
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+	height: 610px;
+	margin: 220px auto auto auto;
+	width: 349px;
+}
+
+#kerangka-title {
+	font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.underline-title {
+    background: -webkit-linear-gradient(right, #d35400, #e67e22);
+    height: 3px;
+    margin: -16px auto 0 auto;
+    width: 100px;
+}
+
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 12pt;
+	font-family: "Raleway Thin", sans-serif;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 75%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	text-align: center;
+}
+ 
+.tombol_login{
+	background: #e67e22;
+	color: white;
+	font-size: 11pt;
+	width: 75%;
+	margin-left: 40px;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.dropdown{
+	padding-left: 60px;
+	width: 250px;
+	height: 30px;
+}
+
+.option{
+	align-content: center;
+}
